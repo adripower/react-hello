@@ -11,16 +11,31 @@ import Jumbotron from "./jumbotrom";
 //create your first component
 const Home = () => {
 	return (
-		<><Navbar /><div className="container text-center">
-			<Jumbotron/>
-			 <Card/> 
+		<>
+			<Navbar />
+				<div className="container text-center">
+
+				<Jumbotron/></div>
+				<div className="container text-center">
+					<div className="row">
+						<div className="col-md "><Card />
+						</div>
+						<div className="col-md "><Card />
+						</div>
+						<div className="col-md "><Card />
+						</div>
+						<div className="col-md "><Card />
+						</div>
+					</div>
+				</div>
+			
 			 <Footer/>
 			
 			
 		
 			
 			
-		</div>
+		
 		</>
 		
 	);
