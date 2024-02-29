@@ -1,12 +1,12 @@
 import React from "react";
 
-function Jumbotron() {
+const Jumbotron = () => {
     return(
-<div className="p-5 mb-4 bg-body-tertiary rounded-3">
-      <div className="container-fluid py-5">
-        <h1 className="display-5 fw-bold">Custom jumbotron</h1>
-        <p className="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <button className="btn btn-primary btn-lg" type="button">Example button</button>
+<div className="bg-secondary mx-2 ps-4 pb-5 rounded-bottom-2 ">
+      <div className="container py-5 text-left">
+        <h1 className="display-2 ">A Warm Welcome!</h1>
+        <p className="col fs-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, commodi ducimus magni exercitationem cupiditate suscipit blanditiis tempore voluptas at. Sapiente at porro optio provident quibusdam vero natus, unde in sit!</p>
+        <button className="btn btn-primary btn-lg  gap-2 d-md-block" type="button"> Call to action!</button>
       </div>
     </div>)
     }
