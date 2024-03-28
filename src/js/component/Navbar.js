@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
 
     return(
-        <ul className="nav justify-content-end bg-info">
+        <ul className="nav justify-content-end bg-Secondary">
   <li className="nav-item">
     <a className="nav-link active" aria-current="page" href="#">Active</a>
   </li>
