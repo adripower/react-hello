@@ -3,8 +3,8 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 function Card() {
   return (
-<div class="row">
-    <div class="container">
+
+    <div class="container col-12 ">
     <div className="card">
       <img
         src="/src/img/rigo-baby.jpg"
@@ -23,7 +23,7 @@ function Card() {
       </div>
     </div>
     </div>
-    </div>
+    
   );
 }
 export default Card;

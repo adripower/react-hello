@@ -14,24 +14,24 @@ const Home = () => {
       <div>
         <Navbar />
       </div>
+
       <div>
         <Jumbotron />
       </div>
 
-      <div>
-        <Card />
-      </div>
-
-      <div>
-        <Card />
-      </div>
-
-      <div>
-        <Card />
-      </div>
-
-      <div>
-        <Card />
+      <div class="row">
+        <div class="col ">
+          <Card />
+        </div>
+        <div class="col">
+          <Card />
+        </div>
+        <div class="col ">
+          <Card />
+        </div>
+        <div class="col">
+          <Card />
+        </div>
       </div>
 
       <div>
