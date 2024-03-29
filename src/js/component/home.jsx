@@ -18,22 +18,22 @@ const Home = () => {
         <Jumbotron />
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col ">
-            <Card />
-          </div>
-          <div class="col">
-            <Card />
-          </div>
-          <div class="col ">
-            <Card />
-          </div>
-          <div class="col">
-            <Card />
-          </div>
-        </div>
+      <div>
+        <Card />
       </div>
+
+      <div>
+        <Card />
+      </div>
+
+      <div>
+        <Card />
+      </div>
+
+      <div>
+        <Card />
+      </div>
+
       <div>
         <Footer />
       </div>
