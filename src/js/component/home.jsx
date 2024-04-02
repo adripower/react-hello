@@ -7,6 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 
+
 //create your first component
 const Home = () => {
   return (
