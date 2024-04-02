@@ -2,6 +2,8 @@ import React from "react";
 import Jumbotron from "./Jumbotron";
 import Card from "./card";
 
+import { App, Car2, Person } from "./card2";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
@@ -33,6 +35,12 @@ const Home = () => {
         <div class="col">
           <Card />
         </div>
+      </div>
+
+      <div>
+        
+        <App/>
+        
       </div>
 
       <div>
