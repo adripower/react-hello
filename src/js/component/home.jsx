@@ -27,10 +27,10 @@ const Home = () => {
           <Card />
         </div>
         <div class="col">
-          <Card />
+          <Card titulo="holiii" mensaje="adios"/>
         </div>
         <div class="col ">
-          <Card />
+          <Card titulo="byeeee"/>
         </div>
         <div class="col">
           <Card />
