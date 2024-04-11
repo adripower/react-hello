@@ -22,17 +22,17 @@ const Home = () => {
         <Jumbotron />
       </div>
 
-      <div class="row">
-        <div class="col ">
+      <div className="row">
+        <div className="col ">
           <Card />
         </div>
-        <div class="col">
+        <div className="col">
           <Card titulo="holiii" mensaje="adios"/>
         </div>
-        <div class="col ">
+        <div className="col ">
           <Card titulo="byeeee"/>
         </div>
-        <div class="col">
+        <div className="col">
           <Card />
         </div>
       </div>

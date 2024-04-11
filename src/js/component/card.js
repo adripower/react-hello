@@ -5,7 +5,7 @@ function Card(props) {
   console.log(props)
   return (
 
-    <div class="container col-12 ">
+    <div className="container col-12 ">
     <div className="card">
       <img
         src="/src/img/rigo-baby.jpg"
