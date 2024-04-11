@@ -24,16 +24,16 @@ const Home = () => {
 
       <div className="row">
         <div className="col ">
-          <Card />
+          <Card titulo="El principio" historia="con la practica se consigue hacer las cosas correctamente"/>
         </div>
         <div className="col">
-          <Card titulo="holiii" mensaje="adios"/>
+          <Card titulo="Holiii" historia="lo entiendo pero no lo veo practico del todo"/>
         </div>
         <div className="col ">
-          <Card titulo="byeeee"/>
+          <Card titulo="Byeeee" historia=" practica de como utilizar los props  "/>
         </div>
         <div className="col">
-          <Card />
+          <Card titulo="Una aventura" historia="y mientras mas se practique con mas confianza tendras "/>
         </div>
       </div>
 
