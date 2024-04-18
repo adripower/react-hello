@@ -42,6 +42,9 @@ const Home = () => {
         <App/>
         
       </div>
+      <div>
+        <boton_loco/>
+      </div>
 
       <div>
         <Footer />
